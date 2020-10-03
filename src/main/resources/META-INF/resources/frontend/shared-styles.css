@@ -1,0 +1,205 @@
+
+.centered-content {
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+
+/*
+	Application Layout
+
+*/
+
+
+.app-header{
+	
+	background-color: #f4f7f8;
+	
+}
+
+.app-header vaadin-button{
+	
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+	
+}
+
+.app-layout{
+
+	height: 100%;
+	overflow: hidden;
+	
+}
+
+/*
+
+	View Templates
+	- Button Overlay
+	- Dual Button Overlay
+
+*/
+
+.button-overlay{
+	
+	margin: 0;
+	padding: 0;
+}
+.button-overlay .bottom-right{
+	
+	position: absolute;
+	margin: 1em 1em;
+	right: 0;
+	bottom: 0;
+}
+
+.button-overlay .bottom-left{
+	
+	position: absolute;
+	margin: 1em 1em;
+	left: 0;
+	bottom: 0;
+}
+
+vaadin-button.bottom-left ,
+	vaadin-button.bottom-right {
+	
+	border-radius: 35px;
+    font-size: 30px;
+    width: 65px;
+    height: 65px;
+	
+}
+
+/*
+ UIDeficeDefinition
+*/
+
+#device-definition-ui{
+	
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0;
+	
+}
+
+#dev-def-overview-disp{
+	
+	width: 100%;
+	justify-content: center;
+		
+}
+
+.device-definition{
+
+	max-width: 350px;
+	height: 350px;
+	cursor: pointer;
+	margin: 1em 1em;
+}
+
+.device-definition:hover{
+	
+	box-shadow: black 0px 0px 13px -1px;
+	
+}
+
+.device-definition img{
+	
+	width: 100%; 
+	
+	
+}
+
+.device-definition .img-holder{
+	
+	height: 80%;
+	overflow: hidden;
+	justify-content: center;
+    align-items: center;
+	
+}
+
+#device-definition-button-add{
+	
+	justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+	
+}
+
+#device-definition-button-add iron-icon{
+	
+	height: 2.2em;
+    width: 2.2em;
+	
+}
+
+#device-definition-button-add:hover iron-icon{
+	
+	height: 2.6em;
+    width: 2.6em;
+	
+}
+
+/*
+
+ UIDeficeDefinition
+
+*/
+
+#def-det-card{
+	
+	width: 100%;
+	
+	
+}
+
+
+/*
+
+	App style
+
+*/
+
+.component-card {
+	
+	box-shadow: black 0px 0px 13px -5px;
+    border-radius: 4px;
+    max-width: 500px;
+	
+}
+
+.wrap{
+	
+	flex-wrap: wrap;
+	
+}
+
+.center{
+	
+	justify-self: center;
+    align-self: center;
+	
+}
+
+.flex-center{
+	
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+	
+}
+
+.row-item{
+
+	border-bottom: #e2e2e2 1px solid;
+    align-items: baseline;
+    margin: 0;
+    padding: .5em;
+    width: 100%;
+    
+	
+}
+
